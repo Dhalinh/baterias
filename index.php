@@ -11,31 +11,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
     
     <!-- favicon & bookmark -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Web Fonts  -->
     <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet"> 
     <!-- Vendor CSS -->
-    <link rel="stylesheet" href="css/animate.css" type="text/css" />
-    <link rel="stylesheet" href="css/fontawesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/fancybox/jquery.fancybox.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/fancybox/jquery.fancybox.min.css" type="text/css" />
    
     <!-- Theme CSS -->
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="assets/style.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" />
 
     <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
-    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="assets/js/respond.js"></script><![endif]-->
     
 </head>
 <body>
      <!-- Preloader start -->
     <div id="st-preloader">
-        <div class="st-preloader-wave"><img src="images/st-loader.png" alt="preloader"></div>
+        <div class="st-preloader-wave"><img src="assets/images/st-loader.png" alt="preloader"></div>
     </div>
     <!-- preloader end -->
 
@@ -47,8 +47,8 @@
                 <div class="row">
                     <div class="col-sm-3 logo">
                         <a href="/wheels/intro/" title="Wheels Bicycle">
-                            <img src="images/motorcycle-logo.png" alt="motorcycle" class="regular-logo">
-                            <img src="images/motorcycle-dark-logo.png" alt="motorcycle" class="sticky-logo">
+                            <img src="assets/images/motorcycle-logo.png" alt="motorcycle" class="regular-logo">
+                            <img src="assets/images/motorcycle-dark-logo.png" alt="motorcycle" class="sticky-logo">
                         </a>
                         <div class="menu-icon">
                             <span class="top"></span>
@@ -109,7 +109,7 @@
                     <div class="row align-items-center">
                         <div class="col-lg-6">
                             <div class="img-wrapper">
-                                <img src="images/image-2.jpg" alt="">
+                                <img src="assets/images/image-2.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -141,21 +141,21 @@
                         <div class="col-lg-4">
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/rim-icon.png" alt="">
+                                    <img src="assets/images/rim-icon.png" alt="">
                                 </div>
                                 <h4>More Powerfull RIM</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
                             </div>
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/engine-icon.png" alt="">
+                                    <img src="assets/images/engine-icon.png" alt="">
                                 </div>
                                 <h4>More Powerfull Engine</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
                             </div>
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/shock-icon.png" alt="">
+                                    <img src="assets/images/shock-icon.png" alt="">
                                 </div>
                                 <h4>All New Suspension</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
@@ -164,27 +164,27 @@
                         <div class="col-lg-4">
                             <div class="circle-animation wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"></div>
                             <div class="features-middle-img wow fadeInUpBig" data-wow-duration="2s">
-                                <img src="images/motorcycle-features-img.png" alt="">
+                                <img src="assets/images/motorcycle-features-img.png" alt="">
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/chasis-icon.png" alt="">
+                                    <img src="assets/images/chasis-icon.png" alt="">
                                 </div>
                                 <h4>Powerfull Chasis</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
                             </div>
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/break-icon.png" alt="">
+                                    <img src="assets/images/break-icon.png" alt="">
                                 </div>
                                 <h4>All New Brakes</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
                             </div>
                             <div class="features-box">
                                 <div class="feature-ico">
-                                    <img src="images/speedometer-icon.png" alt="">
+                                    <img src="assets/images/speedometer-icon.png" alt="">
                                 </div>
                                 <h4>Digital Speedometer</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit nisi sed sollicitudin pellentesque.</p>
@@ -205,16 +205,16 @@
                         <div class="col-md-12">
                             <div class="color-variation-slider owl-carousel m-top-30">
                                 <div class="item" data-color="navy">
-                                    <img src="images/variation-bike-3.png" alt="">
+                                    <img src="assets/images/variation-bike-3.png" alt="">
                                 </div>
                                 <div class="item" data-color="black">
-                                    <img src="images/variation-bike-1.png" alt="">
+                                    <img src="assets/images/variation-bike-1.png" alt="">
                                 </div>
                                 <div class="item" data-color="green">
-                                    <img src="images/variation-bike-2.png" alt="">
+                                    <img src="assets/images/variation-bike-2.png" alt="">
                                 </div>
                                 <div class="item" data-color="brown">
-                                    <img src="images/variation-bike-4.png" alt="">
+                                    <img src="assets/images/variation-bike-4.png" alt="">
                                 </div>
                             </div>
                         </div>
@@ -234,7 +234,7 @@
                             <div class="capability-slider owl-carousel m-top-30">
                                 <div class="cap-item">
                                     <div class="cap-img">
-                                        <img src="images/cap-img-1.png" alt="">
+                                        <img src="assets/images/cap-img-1.png" alt="">
                                     </div>
                                     <div class="cap-details">
                                         <h4>Lights</h4>
@@ -243,7 +243,7 @@
                                 </div>
                                 <div class="cap-item">
                                     <div class="cap-img">
-                                        <img src="images/cap-img-2.png" alt="">
+                                        <img src="assets/images/cap-img-2.png" alt="">
                                     </div>
                                     <div class="cap-details">
                                         <h4>ABS</h4>
@@ -252,7 +252,7 @@
                                 </div>
                                 <div class="cap-item">
                                     <div class="cap-img">
-                                        <img src="images/cap-img-3.png" alt="">
+                                        <img src="assets/images/cap-img-3.png" alt="">
                                     </div>
                                     <div class="cap-details">
                                         <h4>Customize</h4>
@@ -261,7 +261,7 @@
                                 </div>
                                 <div class="cap-item">
                                     <div class="cap-img">
-                                        <img src="images/cap-img-2.png" alt="">
+                                        <img src="assets/images/cap-img-2.png" alt="">
                                     </div>
                                     <div class="cap-details">
                                         <h4>ABS</h4>
@@ -270,7 +270,7 @@
                                 </div>
                                 <div class="cap-item">
                                     <div class="cap-img">
-                                        <img src="images/cap-img-3.png" alt="">
+                                        <img src="assets/images/cap-img-3.png" alt="">
                                     </div>
                                     <div class="cap-details">
                                         <h4>Customize</h4>
@@ -539,7 +539,7 @@
                                     <h4 class="widget-title">About Us</h4>
                                 </div>
                                 <div class="widget-contet">
-                                    <img src="images/motorcycle-logo.png" class="footer-logo" alt="">
+                                    <img src="assets/images/motorcycle-logo.png" class="footer-logo" alt="">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra</p>
                                 </div>
                             </div>
@@ -626,18 +626,18 @@
     </div>
     <!--Main Wrapper End-->
     <!-- Vendor -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/cascading-select.js"></script>        
-    <script src="js/owl.carousel.min.js"></script>     
-    <script src="js/onpagescroll.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/cascading-select.js"></script>        
+    <script src="assets/js/owl.carousel.min.js"></script>     
+    <script src="assets/js/onpagescroll.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/fancybox/jquery.fancybox.min.js"></script>
 
     <!-- Theme Base, Components and Settings -->
-    <script src="js/theme.js"></script>
+    <script src="assets/js/theme.js"></script>
 
     <!-- Theme Custom -->
-    <script src="js/custom.js"></script>
+    <script src="assets/js/custom.js"></script>
 </body>
 </html>

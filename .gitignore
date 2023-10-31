@@ -1,6 +1,6 @@
-css/
-fonts/
+assets/css/
+assets/fonts/
 
-js/fancybox/
+assets/js/fancybox/
 
-templates.html
+assets/templates.html
