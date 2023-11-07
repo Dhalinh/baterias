@@ -5,8 +5,10 @@
       Pre loader init
     ----------------------------------------------------------------------*/
     $(window).load(function() {
+        /*
       $(".st-preloader-wave").delay(1000).fadeOut("slow");
       $("#st-preloader").delay(1000).fadeOut("slow").remove();
+      */
     });
     /*---------------------------------------------------------------------
       Wow init
@@ -41,6 +43,28 @@
         responsiveClass:true,
         navText: ['<i class="fas fa-chevron-left"></i>','<i class="fas fa-chevron-right"></i>'],
     });
+    $('.text-banner').owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:9000,
+        margin:0,
+        items:1,
+        nav: false,
+        dots: true,
+        animateIn: 'fadeIn',
+        responsiveClass:true,
+    })
+    $('.view_product').owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout:9000,
+        margin:0,
+        items:1,
+        nav: false,
+        dots: true,
+        animateIn: 'fadeIn',
+        responsiveClass:true,
+    })
     $('.innovative-slider').owlCarousel({
         loop:true,
         autoplay:true,
