@@ -325,17 +325,18 @@
             </section>
 
             <!--POR QUE ELEGIRNOS -->
-            <section id="porque-elegirnos" class="capability-section light-gray-bg">
+            <section id="porque-elegirnos" class="capability-section light-gray-bg pb-0">
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-md-12 p-0">
                             <div class="container">
-                                <div class="why_choose heading-wrapper">
+                                <div class="why_choose heading-wrapper w-50">
                                     <h2 class="large-heading text-uppercase"><span>LTH</span>¿Porqué Elegirnos?</h2>
                                     <p>Nuestra promesa es proporcionarte un servicio de primera
                                         calidad. Tenemos ubicaciones en varios puntos de la CDMX y
                                         el Estado de México, además, ofrecemos servicio a domicilio y
-                                        trabajamos con las principales marcas del mercado.</p>
+                                        trabajamos con las principales marcas del mercado.
+                                    </p>
                                 </div>
                             </div>
 
@@ -345,7 +346,6 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12">
-
                         </div>
                         <div class="col-md-7">
                             <h3>¡Tu vehículo esta en buenas manos!</h3>
@@ -360,7 +360,39 @@
                         </div>
                         <div class="col-md-5">
                             <div class="testimonios">
+                                <div class="phone position-relative">
+                                    <div class="container-phone">
+                                        <img src="assets/images/phone-complete.png" alt="">
+                                        <div class="carousel-text">
+                                            <div class="text-banner owl-carousel owl-carousels">
+                                                <?php
+                                                $bannerData = get_banner($con);
 
+                                                if ($bannerData !== false) {
+                                                    foreach ($bannerData as $bannerItem) {
+                                                        ?>
+                                                        <div class="content-t">
+                                                            <div>
+                                                                <h2>
+                                                                    <?= $bannerItem['descripcion'] ?>
+                                                                </h2>
+                                                                <button
+                                                                    onclick="window.location.href='<?= $bannerItem['link'] ?>';">
+                                                                    <i class="fas fa-user-plus"></i>
+                                                                    <?= $bannerItem['button'] ?>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                        <?php
+                                                    }
+                                                } else {
+                                                    echo "No se pudieron obtener datos del banner.";
+                                                }
+                                                ?>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

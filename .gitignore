@@ -1,11 +1,12 @@
-assets/css/
+#assets/css/
 
-assets/fonts/
 
-assets/js/fancybox/
+#assets/fonts/
 
-assets/templates.html
+#assets/js/fancybox/
 
-assets/images/
+#assets/templates.html
 
-assets/php/conexion_db.php
+#assets/images/
+
+#assets/php/conexion_db.php
