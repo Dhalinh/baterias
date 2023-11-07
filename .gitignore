@@ -7,3 +7,5 @@ assets/js/fancybox/
 assets/templates.html
 
 assets/images/
+
+assets/php/conexion_db.php
